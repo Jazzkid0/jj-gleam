@@ -11,5 +11,5 @@ fn fun_message(thing: String) -> String {
 }
 
 fn mean_greeting(name: String) -> String {
-  "Why are you even here, " <> name <> "?"
+  "Hi, " <> name <> "."
 }
