@@ -2,7 +2,7 @@ import gleam/io
 
 pub fn main() -> Nil {
   io.println("Gleam project with jujutsu.")
-  mean_greeting("John") |> io.println
+  nice_greeting("John") |> io.println
   fun_message("horse") |> io.println
 }
 
