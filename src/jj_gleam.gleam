@@ -3,7 +3,7 @@ import gleam/io
 
 pub fn main() -> Nil {
   io.println("Gleam project with jujutsu.")
-  mean_greeting("John") |> io.println
+  nice_greeting("John") |> io.println
   fun_message("horse") |> io.println
   count_to_50()
 }
@@ -27,6 +27,6 @@ fn do_count_to_50(n: Int) -> Nil {
   }
 }
 
-fn mean_greeting(name: String) -> String {
-  "Hi, " <> name <> "."
+fn nice_greeting(name: String) -> String {
+  "Hiya, " <> name <> "! How's your day going?"
 }
